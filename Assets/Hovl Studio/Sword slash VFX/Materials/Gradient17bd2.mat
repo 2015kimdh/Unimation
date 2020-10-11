@@ -9,11 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Gradient17bd2
   m_Shader: {fileID: 4800000, guid: 36121c42b945b624fb938cb9637f28d0, type: 3}
-<<<<<<< Updated upstream
   m_ShaderKeywords: _USEDEPTH_ON _USEFRESNEL_ON
-=======
-  m_ShaderKeywords: _USEDEPTH_ON
->>>>>>> Stashed changes
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -88,9 +84,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _Blend2: 1
     - _BumpScale: 1
-    - _CullMode: 0
     - _Cutoff: 0.5
     - _Depthpower: 1
     - _DetailNormalMapScale: 1

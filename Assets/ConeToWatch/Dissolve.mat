@@ -33,4 +33,4 @@ Material:
     - _EdgeWidth: 0.01
     - _NoiseScale: 50
     m_Colors:
-    - _EdgeColor: {r: 7.999999, g: 0.0768107, b: 0, a: 0}
+    - _EdgeColor: {r: 0, g: 3.482353, b: 8, a: 0}
