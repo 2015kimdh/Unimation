@@ -4,11 +4,12 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: Gradient17bd2
-  m_Shader: {fileID: 4800000, guid: ca825309dbbb03640874997c5db5cb48, type: 3}
-  m_ShaderKeywords: _USEDEPTH_ON
+  m_Shader: {fileID: 4800000, guid: 36121c42b945b624fb938cb9637f28d0, type: 3}
+  m_ShaderKeywords: _USEDEPTH_ON _USEFRESNEL_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -90,27 +91,37 @@ Material:
     - _Distortionpower: 0.05
     - _DstBlend: 0
     - _Emission: 2
+    - _Fresnel: 1
+    - _FresnelEmission: 1
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
+    - _InvFade: 1
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Opacity: 3
     - _Parallax: 0.02
+    - _SeparateEmission: 2
+    - _SeparateFresnel: 0
     - _SmoothnessTextureChannel: 0
     - _Softedges: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _UVSec: 0
+    - _UseCustomData: 0
+    - _UseFresnel: 1
     - _Usecenterglow: 0
     - _Usedepth: 1
     - _ZWrite: 1
     - __dirty: 1
     m_Colors:
+    - _BackFacesColor: {r: 0.10980386, g: 0.42352936, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _DistortionSpeedXYPowerZ: {r: 0, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _FresnelColor: {r: 1, g: 1, b: 1, a: 1}
+    - _FrontFacesColor: {r: 0, g: 0.23137257, b: 1, a: 1}
     - _NoisespeedUV: {r: 0, g: 1, b: 0, a: 0}
     - _SpeedMainTexUVNoiseUV: {r: 0.1, g: 1, b: 0, a: 0}
     - _SpeedMainTexUVNoiseZW: {r: 0, g: 0, b: 0, a: 1.5}
